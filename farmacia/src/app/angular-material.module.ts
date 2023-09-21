@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
@@ -21,13 +22,14 @@ import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 
 
 
+
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
   ],
   exports:[
-
+    NgbModule,
     MatCardModule,
     MatTableModule,
     MatBadgeModule,
