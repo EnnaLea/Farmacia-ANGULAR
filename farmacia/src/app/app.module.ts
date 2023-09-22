@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './login/login.module';
 import { AngularMaterialModule } from './angular-material.module';
 import { HomeModule } from './home/home.module';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 // import { ServiceServiceComponent } from './service.service/service.service.component';
 // import { UserdtoComponent } from './dto/userdto/userdto.component';
 
@@ -26,7 +27,9 @@ import { HomeModule } from './home/home.module';
     LoginModule,
     HomeModule,
     AngularMaterialModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

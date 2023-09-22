@@ -1,3 +1,5 @@
+import {Usertype} from './usertypedto';
+
 export class UserDTO {
 
     id!: number;
@@ -6,7 +8,7 @@ export class UserDTO {
  
     password!: string;
  
-    
+    usertype!: Usertype;
  
  
  
